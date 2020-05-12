@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>java practice</title>
+
+	
+	
+</head>
+<body>
+	<!--<p id="javafont"></p>-->
+	<!--<p id="variable" style="font-size: 50px; color: blue;"></p>-->
+	<!--Name: <input type="text" id="variable2" onchange="name1()">--> <!-- onchange event calls the funtion-->
+
+	
+<!--<button type="button" onclick="myFunction()">Display</button>-->
+<!--<button onclick="document.write('this is sandeep')">try it</button>-->
+<!--<h1 id="variable" onmouseover="myFunction()" onmouseout="myFunction1()">This is sandeep Bashyal</h1>--><!-- one way to call function-->
+<h1 id="variable"></h1>
+<script type="text/javascript">
+	//var x = 2.561;
+	//var y = x.toExponential(5); 
+	//var y = x.toFixed(2);
+	//var z = x.toFixed(0);
+	var y = Number("10");
+	var z = Number("sandeep");
+	document.getElementById("variable").innerHTML = y +"<br>"+ z;
+/*
+	var x = 10;
+	var y = x/0 ;
+
+	document.getElementById("variable").innerHTML = y;// result will be infinty
+
+*/
+	/*var nmae, address;
+	name = "sandeep is a very good boy";
+	address = "kotihawa";
+	*/
+	/*
+	document.getElementById("variable").innerHTML = name + "<br>" + address;
+	document.getElementById("variable").innerHTML = name.length;// this gives the length of string 
+	*/
+
+	//var y = name.indexOf("very");// it gives the position of very word in the variable name
+	//var y = name.slice(8, 11);// it will slice the dtring from 8 to 11
+	//var y = name.replace("sandeep", "Ram");// this will replace sandeep and plae it to the ram
+	//var y = name.toUpperCase();// covert into uppercase
+	//var y = name.concat("", address);
+	/*var y;
+	y = 100/"apple";// when number divides vy string its an illegal form which is represented byNaN
+	document.getElementById("variable").innerHTML= y;
+	*/
+	/*function myFunction(){
+			document.getElementById("variable").innerHTML = "Your webpage has been loaded"; }*/
+
+			// oriiginal text is black once mouse ove the heading is removed
+
+		//document.write("this is java code");/* write code delete all the previous file*/
+		//document.getElementById("javafont").innerHTML = 9+12;/* this will write into the element having id javafont*/
+
+		/*var a, b;//two variables are declared
+		a=7;
+		b=9;
+		z=a*b;*/
+		//document.getElementById("variable").innerHTML= z;
+		/* bunch of java cod ean be written inside single function*/
+		//function myFunction(){
+		//document.getElementById("variable").innerHTML='This is javascript';/* for variable*/
+		//document.getElementById("variable1").innerHTML=z; /*for variable1*/
+		
+	//}
+
+		//var name = "sandeep";/* assigning variable with text called sandeep
+		//document.getElementById("variable").innerHTML = name;
+
+		/*var name, address, phone_number;// declaring three variable
+		name = "sandy";
+		address = "Parsahawa";
+		phone_number = 9806987764;*/
+
+
+		/*document.getElementById("variable").innerHTML = name;
+		document.getElementById("variable").innerHTML = address;*/
+
+		/*var name = "sandeep" + "bashyal"+10;// add two values into single and result will be sandeepbashyal
+
+		document.getElementById("variable").innerHTML = name;*/
+
+
+		/*var a = 10, b, c;
+		//a++;// inrease the value by 1 
+		b = a ** 2; // this will make the  10 to power of 2
+		c = Math.pow(a, 3);// same as the way of assigning above in terms of another
+		document.getElementById("variable").innerHTML = c;*/
+  		// for boolean test
+		/*var name, same;
+		name="sandeep's phone";
+		same="sandeep's phone";
+		diff= "sandy";
+		document.getElementById("variable").innerHTML= (name==same) +"<br>" + (same== diff);//this will return true if both the variable assign same value and false if they are different here break sign breaks the line */
+
+		
+
+		/*var name = ['ram', 'shyam'];
+		console.log(name);
+
+		document.getElementById("variable").innerHTML= name[0];*/
+
+		//for objects js
+ 			
+ 		/*var person = {firstName:"sandeep", lastName:"Bashyal", age:28, skin : "brown"};
+ 		
+ 		document.getElementById("variable").innerHTML = person.firstName + person.lastName + "'s age is " + person.age +"<br>" + typeof person.age;// person.age is number defined by typeof operator*/
+
+ 		// for function
+
+ 		/*var x;
+
+ 		function myfunct(p1, p2){
+
+ 			return p1*p2;
+
+ 		}
+
+ 		 x = myfunct(7,16);
+
+ 		 document.getElementById("variable").innerHTML = x;*/
+        // function which passes the string value
+ 		/* var x;
+ 		function name(n){
+ 			return "Bashyal";
+ 		}
+ 		x=name("sandeep");
+
+ 		document.getElementById("variable").innerHTML = x;*/
+
+ 		/*var data={  // data is an object
+ 			name: "sandeep", //prperties of objects
+ 			roll: 4,
+ 			position: "first",
+ 			address: "kotihawa",
+ 			fulldetail: function(){
+ 			return	"Name = "+ data.name +"<br>"+ data.position + "<br>" + data.address;
+
+ 			}
+ 		};
+
+        document.getElementById("variable").innerHTML = data.fulldetail();// called function inside the object
+
+        */
+   
+   /*function name1(){
+
+   		var x = document.getElementById("variable2");// any value return from element of id variable2 is assigned to value x
+   		x.value = x.value.toUpperCase();// value assigned to x in now onverted into uppercase
+
+
+   }
+
+    */
+
+/* function myFunction(){
+ 	document.getElementById("variable").innerHTML = "My name is Sandeep";
+ }
+*/
+
+/* myFunction ic called and the following code is executed*/
+
+// another way to call the function is:
+
+/*document.getElementById("variable").onmouseover = function(){myFunction()};// this will call myFunction() with variable element
+document.getElementById("variable").onmouseout = function(){myFunction1()};
+
+function myFunction(){
+	document.getElementById("variable").style.color = "red"; //id with variable chnages to red once pointer is placed
+}
+*/
+
+
+
+
+
+	</script>
+
+	
+	
+	
+	 
+</body>
+</html>
